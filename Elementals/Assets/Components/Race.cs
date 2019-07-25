@@ -10,6 +10,7 @@ public struct Race : IComponentData
   public float health;
   public float energy;
   public float speed;
+  public float size;
 
 }
 
@@ -18,18 +19,19 @@ public struct Race : IComponentData
 [Serializable]
 public struct Skill : IComponentData{
 
-    public int id;
+    public Entity owner;
+    public SkillType type;
+
     public float cooldown;
     public float requiredEnergy;
     public float requiredHealth;
 
     public float effectArea;
 
-
 }
 
 
-public enum SkllType{
+public enum SkillType{
     Melee,
     Shoot,
     Point,

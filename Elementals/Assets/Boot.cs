@@ -2,6 +2,8 @@
 using Unity.Entities;
 using Unity.Rendering;
 using Unity.Transforms;
+using System;
+using System.Collections.Generic;
 
 public class Boot : MonoBehaviour
 {
@@ -12,11 +14,14 @@ public class Boot : MonoBehaviour
     void Start()
     {
         var entityManager = World.Active.EntityManager;
-        EntityArchetype a = entityManager.CreateArchetype(typeof(RenderMesh), typeof(Translation), typeof(LocalToWorld), typeof(Race), typeof(Scale));
+        EntityArchetype a = entityManager.CreateArchetype(typeof(RenderMesh), typeof(Translation), typeof(LocalToWorld), typeof(Race), typeof(Scale),
+        typeof(Skill));
         Entity en = entityManager.CreateEntity(a);
         entityManager.SetSharedComponentData<RenderMesh>(en, entityMesh);
         entityManager.SetComponentData<Translation>(en, new Translation{});
-        entityManager.SetComponentData<Race>(en, new Race{ health = 100, energy = 100, speed = 1});
+        entityManager.SetComponentData<Race>(en, Data.Singleton.selectedRace);
+        entityManager.SetComponentData<Scale>(en, new Scale{Value = Data.Singleton.selectedRace.size});
+      
     }
 
     // Update is called once per frame

@@ -1,26 +1,4 @@
 Base path: '/home/alice/Storage/Unities/2019.3.0a8/Editor/Data', plugins path '/home/alice/Storage/Unities/2019.3.0a8/Editor/Data/PlaybackEngines'
 Cmd: initializeCompiler
-Cmd: compileComputeKernel
-  api=15 insize=18299 outsize=17204 ok=1
-Cmd: compileComputeKernel
-  api=18 insize=18299 outsize=33261 ok=1
-Cmd: compileComputeKernel
-  api=18 insize=18299 outsize=56166 ok=1
-Cmd: compileComputeKernel
-  api=15 insize=1454 outsize=3972 ok=1
-Cmd: compileComputeKernel
-  api=18 insize=4855 outsize=24708 ok=1
-Cmd: compileComputeKernel
-  api=15 insize=1806 outsize=2321 ok=1
-Cmd: compileComputeKernel
-  api=15 insize=10881 outsize=18560 ok=1
-Cmd: compileComputeKernel
-  api=15 insize=2044 outsize=2092 ok=1
-Cmd: compileComputeKernel
-  api=15 insize=3396 outsize=6169 ok=1
-Cmd: compileComputeKernel
-  api=18 insize=5435 outsize=24993 ok=1
-Cmd: initializeCompiler
-Unhandled exception: Protocol error - unexpected end of data (did the Editor crash?)
 
 Quitting shader compiler process
