@@ -1,0 +1,23 @@
+Base path: '/home/alice/Storage/Unities/2019.3.0a8/Editor/Data', plugins path '/home/alice/Storage/Unities/2019.3.0a8/Editor/Data/PlaybackEngines'
+Cmd: initializeCompiler
+Cmd: compileComputeKernel
+  api=15 insize=18299 outsize=16403 ok=1
+Cmd: compileComputeKernel
+  api=18 insize=18299 outsize=34218 ok=1
+Cmd: compileComputeKernel
+  api=15 insize=1176 outsize=2269 ok=1
+Cmd: compileComputeKernel
+  api=18 insize=1454 outsize=2335 ok=1
+Cmd: compileComputeKernel
+  api=18 insize=4855 outsize=38014 ok=1
+Cmd: compileComputeKernel
+  api=15 insize=3070 outsize=83214 ok=1
+Cmd: compileComputeKernel
+  api=18 insize=10881 outsize=40156 ok=1
+Cmd: compileComputeKernel
+  api=15 insize=2044 outsize=2096 ok=1
+Cmd: compileComputeKernel
+  api=15 insize=3396 outsize=5456 ok=1
+Cmd: compileComputeKernel
+  api=18 insize=3072 outsize=1259 ok=1
+Cmd: initializeCompiler
